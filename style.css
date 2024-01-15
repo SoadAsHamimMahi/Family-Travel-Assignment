@@ -1,29 +1,35 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Mulish';
 }
 
 .primary-span {
     color: #FF5400;
-
+    
 }
 
-.button-primary{
-    width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-border: none;
+.button-primary {
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF5400;
+    border: none;
+}
+
+.primary-h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 
 /* navigation part starts here */
 
 header {
-    max-width: 1170px;
+    
     width: 81%;
     margin: 20px auto;
-
 }
 
 .site-logo-name {
@@ -34,7 +40,7 @@ header {
 
 .site-name {
     color: #131318;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
 }
 
@@ -61,34 +67,37 @@ header {
 /* banner section part starts here */
 
 .banner-section {
-    width: 81%;
+    width: 81%; 
     margin: 50px auto;
     border-radius: 16px;
-    width: 1170px;
     height: 500px;
-    flex-shrink: 0;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .input-travel-info {
     display: flex;
-
 }
 
 .banner-section .input-travel-info {
     display: flex;
     padding: 16px;
-    align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
 }
 
-
-
-.banner-section .travel-info-input input {
-    width: 174px;
+.banner-section  input {
+    width: 100%;
     height: 52px;
     border-radius: 8px;
     background: #FFF;
@@ -96,46 +105,46 @@ header {
 }
 
 .banner-sec-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 106px 185px;
+    
+    width: 60%;
 }
 
 .banner-sec-div h1 {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
+    text-align: center;
 }
 
 .banner-sec-div p {
+
     color: #FFF;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    width: 676px;
+   
     margin-top: 24px;
     margin-bottom: 48px;
 }
 
-.banner-section .travel-info-option select{
-    width: 174px;
-height: 52px; 
-border-radius: 8px;
-background: #FFF;
-border: none;
-padding: 14px 15px;
-color: rgba(19, 19, 24, 0.50);
-font-size: 16px;
-margin-right: 15px;
+.banner-section select {
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+   text-align: center;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    margin-right: 15px;
 }
 
-.travel-info > button{
+.travel-info > button {
     color: #FFF;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,3 +152,83 @@ margin-right: 15px;
 }
 
 
+/* popular tour section starts here */
+
+
+.pupular-tour-section{
+    width: 81%; 
+    margin: 50px auto;
+}
+
+.pupular-tour-section .popular-tour-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-tour-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 47%;
+    
+    justify-content: space-between;
+}
+
+.popular-tour-img{
+    
+    width: 47%;
+}
+
+.popular-tour-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.popular-tour-text > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.popular-tour-text p, li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+
+}
+.popular-tour-text button{
+    width: 174px;
+
+}
+
+/* Destination section starts here */
+
+.destination-section{
+    width: 82%;
+    margin: 50px auto;
+}
+
+.destination-section .country-img{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grit-item-1{
+    grid-column: 1/span 6;
+}
+.grit-item-2{
+    grid-column: 7/span 13;
+}
+
+
+/* perfect place section started here */
+
+.perfect-place-section{
+    width: 81%; 
+    margin: 50px auto;
+}
+
+.perfect-place-div{
+    display: flex;
+    justify-content: space-between;
+}
