@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish';
+}
+
+.primary-span {
+    color: #FF5400;
+
+}
+
+.button-primary{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+}
+
+/* navigation part starts here */
+
+header {
+    max-width: 1170px;;
+    width: 81%;
+    margin: 20px auto;
+
+}
+
+.site-logo-name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.site-name {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    gap: 44px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.nav-part nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-part .list ul>li>a {
+    color: var(--Dark-02, #424247);
+}
+
+/* banner section part starts here */
+
+.banner-section {
+    width: 81%;
+    margin: 50px auto;
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/banner.png);
+}
+
+
+.input-travel-info {
+    display: flex;
+
+}
+
+.banner-section .input-travel-info {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+
+
+.banner-section .travel-info-input input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.banner-sec-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 106px 185px;
+}
+
+.banner-sec-div h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-sec-div p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 676px;
+}
+
+.banner-section .travel-info-option select{
+    width: 174px;
+height: 52px; 
+border-radius: 8px;
+background: #FFF;
+border: none;
+padding: 14px 15px;
+color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+margin-right: 15px;
+}
+
+.travel-info > button{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
