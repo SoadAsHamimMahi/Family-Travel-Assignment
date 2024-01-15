@@ -20,7 +20,7 @@ border: none;
 /* navigation part starts here */
 
 header {
-    max-width: 1170px;;
+    max-width: 1170px;
     width: 81%;
     margin: 20px auto;
 
@@ -67,7 +67,7 @@ header {
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/banner.png);
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/banner.png);
 }
 
 
@@ -77,7 +77,7 @@ header {
 }
 
 .banner-section .input-travel-info {
-    display: inline-flex;
+    display: flex;
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
@@ -115,6 +115,8 @@ header {
     font-size: 16px;
     font-weight: 400;
     width: 676px;
+    margin-top: 24px;
+    margin-bottom: 48px;
 }
 
 .banner-section .travel-info-option select{
@@ -139,3 +141,5 @@ margin-right: 15px;
     align-items: center;
     gap: 8px;
 }
+
+
