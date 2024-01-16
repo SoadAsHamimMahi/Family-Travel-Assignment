@@ -12,6 +12,7 @@
     }
 
 
+
     /* populer section starts here */
     
     .popular-tour-div{
@@ -32,4 +33,38 @@
     .pupular-tour-section{
         width: 90% auto;
     }
+
+    /* Destination sector starts here */
+
+    .destination h2 {
+        font-size: 1.5rem;
+    }
+
+    .img-container {
+        display: block;
+    }
+
+    
+
+
+
+    /* choose section starts here */
+    
+    .choose-service{
+        flex-direction: column;
+    }
+
+    .service-1, .service-2 ,.service-3{
+        width: 90%;
+    }
+
+    .choose-text h2{
+        font-size: 1.5rem;
+    }
+    .choose-text p{
+        font-size: .8rem;
+        
+    }
+
+    
 }
