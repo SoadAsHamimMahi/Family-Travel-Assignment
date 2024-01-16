@@ -66,5 +66,26 @@
         
     }
 
-    
+
+
+    /* footer section starts here */
+   
+    footer{
+       height: 309px;
+    }
+
+    .footer-logo h3{
+        font-size: 1.5rem;
+    }
+    .footer-logo p{
+        font-size: .8rem;
+    }
+
+    .footer-hr {
+        
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+    }
+
 }
