@@ -154,13 +154,19 @@ header {
 .travel-info>button {
     color: #FFF;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+.input-travel-info input {
+    color: rgba(19, 19, 24, 0.50);
+
+    text-align: center;
 }
 
 
@@ -209,41 +215,51 @@ li {
 
 }
 
+.popular-tour-text h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 .popular-tour-text button {
     width: 174px;
-
+    color: #FFF;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 
 
 /* Choose room starts here  */
 
-.hotel-room{
-    
+.hotel-room {
+
     width: 82%;
     margin: 50px auto;
 }
 
-.room-image{
-    
+.room-image {
+
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-.room-image img{
+.room-image img {
     border-radius: 15px;
     margin-bottom: 20px;
 }
 
 
-.single{
+.single {
     width: 25%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+
 }
+
 .double {
     width: 25%;
     display: flex;
@@ -258,14 +274,14 @@ li {
     text-align: center;
 }
 
-.family{
+.family {
     width: 25%;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.Hotel-room-text h2{
+.Hotel-room-text h2 {
     color: #131318;
     text-align: center;
     font-size: 2.5rem;
@@ -273,7 +289,7 @@ li {
     margin-bottom: 20px;
 }
 
-.Hotel-room-text p{
+.Hotel-room-text p {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
@@ -426,6 +442,7 @@ li {
     border: none;
     padding: 2rem;
 
+
 }
 
 .service-2 {
@@ -434,7 +451,7 @@ li {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    border: none;
+
 }
 
 .service-3 {
@@ -446,6 +463,10 @@ li {
     background: rgba(233, 68, 68, 0.05);
     border: 1px;
 
+}
+
+.choose-service h3{
+    margin-top: 32px;
 }
 
 .service-1 p,
@@ -478,7 +499,7 @@ li {
 .newsletter {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .newsletter-text {
@@ -496,60 +517,71 @@ li {
     height: 422px;
     border-radius: 16px;
     border-radius: 16px;
-background: url(Images/Rectangle8.png), lightgray 50% / cover no-repeat;
+    background: url(Images/Rectangle8.png), lightgray 50% / cover no-repeat;
     background-size: cover;
 }
 
 
 
-.newsletter-text h3{
-font-size: 1.5rem;
-font-weight: 800;
-}
-.newsletter-text p{
-color: #5A5A5D;
-font-size: 1rem;
-font-weight: 400;
+.newsletter-text h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 
-.newsletter-text input{
+.newsletter-text p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.newsletter-text input {
     border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-width: 100%;
-height: 3.25rem;
-border: none;
-
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 3.25rem;
+    border: none;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 1rem;
 }
 
-.newsletter-img{
+
+.newsletter-text button {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-img {
     display: flex;
     justify-content: end;
-    align-items: end;   
-    
+    align-items: end;
+
 }
 
-.newsletter-img .discount-tag{
+.newsletter-img .discount-tag {
     width: 18.25rem;
     height: 7.5rem;
     border-radius: 16px;
-background: #FF5400;
-transform: rotate(-19.628deg);
-display: flex;
-flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   margin-bottom: 2.5rem;
-   margin-right: .2rem;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    margin-right: .2rem;
 }
 
-.newsletter-img .discount-tag p{
+.newsletter-img .discount-tag p {
     color: #FFF;
-text-align: center;
-font-size: 24px;
-font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 }
 
-.newsletter-img .discount-tag b{
+.newsletter-img .discount-tag b {
     font-size: 2rem;
     color: #FFF;
     font-weight: 800;

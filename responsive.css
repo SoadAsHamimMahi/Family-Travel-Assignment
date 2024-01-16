@@ -11,18 +11,30 @@
         display: none;
     }
 
+    .site-logo-name h2{
+        font-size: 2rem;
+    }
 
-   
+   /* banner section starts here */
+
+
     .input-travel-info{
         flex-direction: column;
     }
     .banner-section{
         width: 90%;
-        height: auto;
+        height: 520px;
     }
     .banner-sec-div h1{
         font-size: 1.5rem;
+        margin-top: 20px;
     }
+
+    .banner-sec-div p{
+        margin-top: 10px;
+    margin-bottom: 24px;
+    }
+
 
 
     /* populer section starts here */
@@ -46,6 +58,12 @@
         width: 85% auto;
     }
 
+    .popular-tour-text h2{
+        font-size: 1.5rem
+    }
+    .popular-tour-text p{
+        font-size: .9rem
+    }
 
     /* Room section starts here */
 
@@ -57,9 +75,17 @@
         width: 90%;
     }
 
+    .Hotel-room-text h2{
+        font-size: 1.5rem
+    }
+
+    .Hotel-room-text p{
+        font-size: .9rem;
+    }
+
     /* Destination sector starts here */
 
-    .destination h2 {
+    .destination-section h2 {
         font-size: 1.5rem;
     }
 
@@ -113,6 +139,18 @@
         margin-top: 15px;
     }
 
+    .newsletter-text p{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .newsletter-text input{
+        margin-top: 16px;
+    }
+
+    .newsletter-text button{
+        margin-top: 16px;
+    }
 
     /* footer section starts here */
 
