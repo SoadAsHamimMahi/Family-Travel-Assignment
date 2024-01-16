@@ -9,6 +9,7 @@
 
 }
 
+
 .button-primary {
     width: 100%;
     height: 52px;
@@ -25,6 +26,17 @@
 }
 
 /* navigation part starts here */
+
+.three-dot {
+    display: none;
+    font-size: 1.5rem;
+    color: #FF5400;
+    cursor: pointer;
+}
+
+.list ul.show {
+    display: flex;
+}
 
 header {
 
@@ -200,6 +212,74 @@ li {
 .popular-tour-text button {
     width: 174px;
 
+}
+
+
+
+/* Choose room starts here  */
+
+.hotel-room{
+    
+    width: 82%;
+    margin: 50px auto;
+}
+
+.room-image{
+    
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.room-image img{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+.single{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.double {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.triple {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.family{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Hotel-room-text h2{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.Hotel-room-text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 /* Destination section starts here */

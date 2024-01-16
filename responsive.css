@@ -1,5 +1,18 @@
 @media screen and (max-width: 600px) {
-  
+
+    .three-dot {
+        display: block; /* Show the three-dot icon on mobile */
+        font-size: 1.5rem;
+        color: #FF5400;
+        cursor: pointer;
+    }
+
+    .list{
+        display: none;
+    }
+
+
+   
     .input-travel-info{
         flex-direction: column;
     }
@@ -12,26 +25,36 @@
     }
 
 
-
     /* populer section starts here */
-    
-    .popular-tour-div{
+
+    .popular-tour-div {
         width: 95%;
         flex-direction: column;
     }
 
-    .popular-tour-text{
+    .popular-tour-text {
         width: 100%;
         margin-bottom: 24px;
     }
 
-    .popular-tour-img{
+    .popular-tour-img {
         width: 100%;
-        
+
     }
 
-    .pupular-tour-section{
+    .pupular-tour-section {
         width: 85% auto;
+    }
+
+
+    /* Room section starts here */
+
+    .room-image{
+        flex-direction: column;
+    }
+
+    .single, .double, .triple, .family{
+        width: 90%;
     }
 
     /* Destination sector starts here */
@@ -42,69 +65,74 @@
 
     .img-container {
         display: block;
-        
+
     }
-    .img-container img{
+
+    .img-container img {
         height: 11rem;
         margin-bottom: 8px;
     }
-    
+
 
 
 
     /* choose section starts here */
-    
-    .choose-service{
+
+    .choose-service {
         flex-direction: column;
     }
 
-    .service-1, .service-2 ,.service-3{
+    .service-1,
+    .service-2,
+    .service-3 {
         width: 85%;
     }
 
-    .choose-text h2{
+    .choose-text h2 {
         font-size: 1.5rem;
     }
-    .choose-text p{
+
+    .choose-text p {
         font-size: .8rem;
-        
+
     }
 
 
     /* newsletter section starts here */
 
-    .newsletter{
+    .newsletter {
         flex-direction: column;
     }
 
-    .newsletter-text{
+    .newsletter-text {
         width: 85%;
     }
 
-    .newsletter-img{
+    .newsletter-img {
         width: 100%;
         margin-top: 15px;
     }
 
 
     /* footer section starts here */
-   
-    footer{
-       height: 309px;
+
+    footer {
+        height: 309px;
     }
 
-    .footer-logo h3{
+    .footer-logo h3 {
         font-size: 1.5rem;
     }
-    .footer-logo p{
+
+    .footer-logo p {
         font-size: .8rem;
     }
 
     .footer-hr {
-        
+
         margin-bottom: 20px;
         margin-top: 20px;
-        
+
     }
 
 }
