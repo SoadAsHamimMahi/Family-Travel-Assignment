@@ -16,7 +16,7 @@
     /* populer section starts here */
     
     .popular-tour-div{
-        width: 90%;
+        width: 95%;
         flex-direction: column;
     }
 
@@ -31,7 +31,7 @@
     }
 
     .pupular-tour-section{
-        width: 90% auto;
+        width: 85% auto;
     }
 
     /* Destination sector starts here */
@@ -42,8 +42,12 @@
 
     .img-container {
         display: block;
+        
     }
-
+    .img-container img{
+        height: 11rem;
+        margin-bottom: 8px;
+    }
     
 
 
@@ -55,7 +59,7 @@
     }
 
     .service-1, .service-2 ,.service-3{
-        width: 90%;
+        width: 85%;
     }
 
     .choose-text h2{
@@ -66,6 +70,21 @@
         
     }
 
+
+    /* newsletter section starts here */
+
+    .newsletter{
+        flex-direction: column;
+    }
+
+    .newsletter-text{
+        width: 85%;
+    }
+
+    .newsletter-img{
+        width: 100%;
+        margin-top: 15px;
+    }
 
 
     /* footer section starts here */
